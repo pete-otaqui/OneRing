@@ -1,0 +1,24 @@
+{
+    "name": "otaqui/one-ring",
+    "description": "The One Ring Rules Engine - a general purpose library providing ready made, extensible and data-driven rules creation.",
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Otaqui",
+            "email": "pete@otaqui.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "OneRing\\": "src/"
+        },
+        "psr-0": {
+            "OneRingTest": "test/",
+            "OneRing": "src/"
+        }
+    }
+}
