@@ -2,12 +2,12 @@
 
 namespace OneRing\Rule;
 
-class NumberInRangeRule extends AbstractRule implements RuleInterface
+class RegexRule extends AbstractRule implements RuleInterface
 {
 
     public function test($args) {
         foreach ( $args as $arg ) {
-            if ( $arg >= $this->params[0] && $arg <= $this->params[1] ) {
+            if ( preg_match($this->params[0], $arg) ) {
                 return true;
             }
         }
