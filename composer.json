@@ -1,6 +1,9 @@
 {
     "name": "otaqui/one-ring",
     "description": "The One Ring Rules Engine - a general purpose library providing ready made, extensible and data-driven rules creation.",
+    "keywords": ["rules", "logic", "decision", "engine"],
+    "type": "library",
+    "homepage": "https://github.com/pete-otaqui/OneRing",
     "require-dev": {
         "phpunit/phpunit": "4.1.*"
     },
